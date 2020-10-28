@@ -85,7 +85,7 @@ function App() {
     <div className="App">
       <h1>Covid-19 Confirmed Cases</h1>
       {isLoading ? 
-        <div> loading...</div>
+        <div> <h3>loading ... </h3></div>
       :
       <>
         {
