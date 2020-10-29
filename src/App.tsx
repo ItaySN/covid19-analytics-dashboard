@@ -12,7 +12,7 @@ function App() {
   const [firstCountryName, setFirstCountryName] = useState<string>('ISRAEL')
   const [secondCountryName, setSecondCountryName] = useState<string>('US')
   const [firstCountryIndex,setFirstSelect] = useState<number>(149)
-  const [secondCountryIndex,setSecondSelect] = useState<number>(244)
+  const [secondCountryIndex,setSecondSelect] = useState<number>(245)
   
 
   //Get data from the CSV for two countries
